@@ -1,19 +1,20 @@
 // import logo from "./logo.svg";
 import { DndProvider } from "react-dnd";
 import "./App.scss";
-import Board from "./components/Board/Board";
+import Main from "./components/Main/Main";
 import ExtraSidebar from "./components/ExtraSidebar/ExtraSidebar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { HTML5Backend } from "react-dnd-html5-backend";
+import { AppWrapper } from "./appStyles";
 
 function App() {
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="App">
+      <AppWrapper>
         <Sidebar />
         <ExtraSidebar />
-        <Board />
-      </div>
+        <Main />
+      </AppWrapper>
     </DndProvider>
   );
 }

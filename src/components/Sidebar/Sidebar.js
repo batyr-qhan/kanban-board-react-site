@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import styles from "./sidebar.module.scss";
 import { ReactComponent as YourSvg } from "../../assets/svg/bordio-logo.svg";
 import { ReactComponent as ProfileImage } from "../../assets/svg/Ellipse.svg";
+import { Container } from "./sidebarStyles";
 
 export default function Sidebar() {
   const [inputValue, setInputValue] = useState("");
   return (
-    <div className={styles.sidebar}>
+    <Container>
       <div className={styles.header}>
         <div className={styles.logoContainer}>
           <YourSvg />
@@ -28,6 +29,6 @@ export default function Sidebar() {
         <span>My Workspace</span>
       </div>
       <div className={styles.menu}></div>
-    </div>
+    </Container>
   );
 }
