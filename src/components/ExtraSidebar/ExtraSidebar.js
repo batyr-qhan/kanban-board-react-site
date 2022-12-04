@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 import styles from "./extrasidebar.module.scss";
-import { ReactComponent as ToolsIcon } from "../../assets/svg/tools-icon.svg";
-import { ReactComponent as Calendar } from "../../assets/svg/ico_calendar.svg";
-import { ReactComponent as Tasks } from "../../assets/svg/ico_tasks.svg";
-import { ReactComponent as Notes } from "../../assets/svg/ico_notes.svg";
-import { ReactComponent as File } from "../../assets/svg/ico_files.svg";
 import classNames from "classnames";
 
 import {

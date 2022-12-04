@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { useDrag, useDrop } from "react-dnd";
 import { columns, tasks } from "../../utils/data";
 
-import styles from "../Main/board.module.scss";
 import { Container, ItemContainer, SubTitle, Title } from "./dropWrapperStyles";
 
 export default function DropWrapper({ onDrop, status, items, setCount }) {

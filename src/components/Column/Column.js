@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { columns, tasks } from "../../utils/data";
 import { Container, Counter, Header, Title } from "./columnStyles";
 
-import styles from "../Main/board.module.scss";
 import DropWrapper from "../DropWrapper/DropWrapper";
 
 export default function Column({

@@ -56,4 +56,28 @@ const kanbanBtnOptions = [
   { id: 3, title: "Kanban View" },
 ];
 
-export { columns, tasks, kanbanBtnOptions };
+const menuItems = [
+  {
+    id: 1,
+    title: "Favorites",
+    nestedItems: [
+      { id: 1, title: "Marketing" },
+      { id: 2, title: "Mobile App" },
+    ],
+    addBtn: false,
+  },
+  {
+    id: 2,
+    title: "My Projects",
+    nestedItems: [
+      { id: 1, title: "Marketing" },
+      { id: 2, title: "Landing Pages" },
+      { id: 3, title: "Wedding" },
+      { id: 4, title: "Mobile App" },
+      { id: 5, title: "House Construction" },
+    ],
+    addBtn: true,
+  },
+];
+
+export { columns, tasks, kanbanBtnOptions, menuItems };

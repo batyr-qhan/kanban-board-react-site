@@ -5,7 +5,6 @@ import { ReactComponent as ProfileImage } from "../../assets/svg/Ellipse.svg";
 import {
   Container,
   Header,
-  Input,
   Item,
   ItemTitle,
   ItemTitleContainer,
@@ -18,37 +17,14 @@ import {
 
 import { IoAdd, IoChevronDown, IoChevronUp } from "react-icons/io5";
 import DarkInput from "../shared/DarkInput/DarkInput";
-
-const menuItems = [
-  {
-    id: 1,
-    title: "Favorites",
-    nestedItems: [
-      { id: 1, title: "Marketing" },
-      { id: 2, title: "Mobile App" },
-    ],
-    addBtn: false,
-  },
-  {
-    id: 2,
-    title: "My Projects",
-    nestedItems: [
-      { id: 1, title: "Marketing" },
-      { id: 2, title: "Landing Pages" },
-      { id: 3, title: "Wedding" },
-      { id: 4, title: "Mobile App" },
-      { id: 5, title: "House Construction" },
-    ],
-    addBtn: true,
-  },
-];
+import { menuItems } from "../../utils/data";
 
 export default function Sidebar() {
   const [inputValue, setInputValue] = useState("");
   return (
     <Container>
-      <Header className={styles.header}>
-        <Logo className={styles.logoContainer}>
+      <Header>
+        <Logo>
           <YourSvg />
         </Logo>
         <DarkInput value={inputValue} onChange={setInputValue} />
