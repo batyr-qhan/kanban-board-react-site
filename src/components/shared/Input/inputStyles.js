@@ -11,7 +11,7 @@ export const InputStyled = styled.input`
   height: 100%;
   border: none;
   border-radius: 50px;
-  padding: 12px 16px;
+  padding: 12px 35px 12px 16px;
   outline: none;
   width: 100%;
   font-family: "Roboto";

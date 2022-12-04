@@ -10,7 +10,6 @@ export const InputStyled = styled.input`
   outline: none;
   border: none;
   border-radius: 4px;
-  height: 30px;
   background-color: #2d4071;
   padding: 10px;
   padding-right: 35px;
