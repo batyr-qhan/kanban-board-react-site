@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/kanban-board-react-site/static/css/main.beaf7a45.css",
-    "main.js": "/kanban-board-react-site/static/js/main.7aa8e978.js",
-    "static/js/787.ee895487.chunk.js": "/kanban-board-react-site/static/js/787.ee895487.chunk.js",
+    "main.css": "/kanban-board-react-site/static/css/main.6c68d349.css",
+    "main.js": "/kanban-board-react-site/static/js/main.9c3df971.js",
     "static/media/Ellipse.svg": "/kanban-board-react-site/static/media/Ellipse.06ddc9a768b39695d6ba5027fb9e023f.svg",
     "static/media/bordio-logo.svg": "/kanban-board-react-site/static/media/bordio-logo.f1eb3476d268be89ee78c3ce03bbc3cf.svg",
-    "static/media/ico_tasks.svg": "/kanban-board-react-site/static/media/ico_tasks.c62406407cbaa35afbed528f22996e40.svg",
-    "static/media/ico_calendar.svg": "/kanban-board-react-site/static/media/ico_calendar.74694259a3f115210ff12dfb3be84523.svg",
-    "static/media/ico_notes.svg": "/kanban-board-react-site/static/media/ico_notes.915017a7eef57345f2124d937d8c4859.svg",
-    "static/media/tools-icon.svg": "/kanban-board-react-site/static/media/tools-icon.85b07004dfffd902d67ec53531a5d96c.svg",
-    "static/media/ico_files.svg": "/kanban-board-react-site/static/media/ico_files.7776e0b07162fa1e04490d63605b2e56.svg",
     "index.html": "/kanban-board-react-site/index.html",
-    "main.beaf7a45.css.map": "/kanban-board-react-site/static/css/main.beaf7a45.css.map",
-    "main.7aa8e978.js.map": "/kanban-board-react-site/static/js/main.7aa8e978.js.map",
-    "787.ee895487.chunk.js.map": "/kanban-board-react-site/static/js/787.ee895487.chunk.js.map"
+    "main.6c68d349.css.map": "/kanban-board-react-site/static/css/main.6c68d349.css.map",
+    "main.9c3df971.js.map": "/kanban-board-react-site/static/js/main.9c3df971.js.map"
   },
   "entrypoints": [
-    "static/css/main.beaf7a45.css",
-    "static/js/main.7aa8e978.js"
+    "static/css/main.6c68d349.css",
+    "static/js/main.9c3df971.js"
   ]
 }
