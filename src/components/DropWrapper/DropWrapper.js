@@ -16,13 +16,8 @@ export default function DropWrapper({ onDrop, status, items, setCount }) {
     setCount(tasks.length);
   }, [setCount, tasks]);
 
-  // useEffect(() => {}, [])
   const moveItem = (dragIndex, hoverIndex) => {
     const item = tasks[dragIndex];
-
-    console.log(item);
-
-    console.log("this is hover", hoverIndex);
 
     setTasks((prevState) => {
       const newItems = prevState.filter((i, idx) => idx !== dragIndex);
@@ -99,8 +94,6 @@ const Item = ({
       const dragIndex = item.index;
       const hoverIndex = index;
 
-      console.log(dragIndex, hoverIndex);
-
       if (dragIndex === hoverIndex) {
         return;
       }
@@ -136,13 +129,11 @@ const Item = ({
     return null;
   }
 
-  //   console.log(status)
   return (
     <ItemContainer
       completed={status === "compl"}
       ref={ref}
       color={color}
-      //   className={styles.task}
       style={{
         backgroundColor: isDragging && "#fbb",
       }}
